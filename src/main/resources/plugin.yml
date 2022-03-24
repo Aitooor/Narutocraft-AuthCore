@@ -1,0 +1,12 @@
+main: es.narutocraft.authcore.AuthPlugin
+name: AuthCore
+author: "Nasgar Development Team"
+description: "AuthCore for Narutocraft server"
+version: ${project.version}
+
+softdepend:
+    - PlaceholderAPI
+
+commands:
+    setspawn:
+
