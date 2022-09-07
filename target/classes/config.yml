@@ -1,6 +1,0 @@
-SCOREBOARD:
-    TICKS: 20
-    TITLE: "&e&lNARUTO&6&lCRAFT &8| &fRegistro"
-# On join message title
-ONJOIN:
-    TITLE: "&e&lNARUTO&6&lCRAFT &7| &fRegistro"
