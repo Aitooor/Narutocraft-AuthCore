@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>es.narutocraft</groupId>
-    <artifactId>authcore</artifactId>
+    <artifactId>AuthCore</artifactId>
     <version>1.0</version>
     <name>AuthCore</name>
     
@@ -37,7 +37,6 @@
             <artifactId>core</artifactId>
             <version>6.0.17</version>
         </dependency>
-        
         <dependency>
             <groupId>me.yushust.message</groupId>
             <artifactId>sourcetype-bukkit-yml</artifactId>

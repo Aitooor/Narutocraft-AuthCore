@@ -5,7 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4536f7-e130-4d6b-bdcf-cb00f5e09691" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/AuthCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/command/ReloadCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/AuthPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/adapter/ScoreboardAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/adapter/ScoreboardAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/command/SetSpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/command/SetSpawnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/listeners/PlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/listeners/PlayerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/nmessage/UserLinguist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/narutocraft/authcore/nmessage/UserMessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/languages/lang_es.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lang/lang_es.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AuthCore-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AuthCore-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/AuthPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/adapter/ScoreboardAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/adapter/ScoreboardAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/command/SetSpawnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/command/SetSpawnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/listeners/PlayerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/listeners/PlayerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/nmessage/UserLinguist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/nmessage/UserMessageSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/CenteredMessage$Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/CenteredMessage$Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/CenteredMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/CenteredMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/LocationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/LocationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/MessageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/MessageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/Assemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/Assemble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleBoardEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleBoardEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleStyle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/AssembleUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardCreateEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardCreateEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardCreatedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardCreatedEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardDestroyEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/narutocraft/authcore/utils/scoreboard/events/AssembleBoardDestroyEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/languages/lang_es.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-AuthCore-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-AuthCore-1.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +71,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="es.narutocraft.authcore.command" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

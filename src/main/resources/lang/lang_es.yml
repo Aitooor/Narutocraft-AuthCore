@@ -19,3 +19,14 @@ ONJOIN:
   ONE: "&e&oDesde Narutocraft esperamos que disfrutes"
   TWO: "&e&o¡Juguemos!"
   MESSAGE: "&7&oUsa &a&o/register <contra> <contra> &7&oo &a&o/login <contra>"
+CORE:
+  HELP:
+    - "&r"
+    - "&6&lAUTHCORE&r &7Ayuda"
+    - "&r"
+    - "&b/core reload &7-> &fReinicia la configuracion y los langs"
+    - "&b/setspawn &7-> &fEstablece el spawn &7(Solo jugadores)"
+  RELOAD: "&6&lNARUTOCRAFT &aConfiguracion recargada correctamente"
+  SETSPAWN:
+    USAGE: "&cUso: /setspawn"
+    PLAYER: "&6&lNARUTOCRAFT &aSpawn establecido correctamente"

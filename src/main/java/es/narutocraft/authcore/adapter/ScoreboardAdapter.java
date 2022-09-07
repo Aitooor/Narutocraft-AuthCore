@@ -1,6 +1,6 @@
 package es.narutocraft.authcore.adapter;
 
-import es.narutocraft.authcore.AuthPlugin;
+import es.narutocraft.authcore.AuthCore;
 import es.narutocraft.authcore.utils.MessageUtil;
 import es.narutocraft.authcore.utils.scoreboard.AssembleAdapter;
 import es.narutocraft.authcore.utils.scoreboard.AssembleStyle;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ScoreboardAdapter implements AssembleAdapter {
 
-    FileConfiguration config = AuthPlugin.getInstance().getConfig();
+    FileConfiguration config = AuthCore.getInstance().getConfig();
 
     @Override
     public String getTitle(Player player) {
@@ -26,7 +26,7 @@ public class ScoreboardAdapter implements AssembleAdapter {
         String rank = "%vault_prefix%";
         rank = PlaceholderAPI.setPlaceholders(player.getPlayer(), rank);
 
-        return MessageUtil.translate(AuthPlugin.getInstance().getMessageHandler().replacingMany(player, "SCOREBOARD.LINES", "%rank%", rank, "%player%", name));
+        return MessageUtil.translate(AuthCore.getInstance().getMessageHandler().replacingMany(player, "SCOREBOARD.LINES", "%rank%", rank, "%player%", name));
     }
 
     @Override

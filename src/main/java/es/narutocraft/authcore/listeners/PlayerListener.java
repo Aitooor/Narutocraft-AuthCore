@@ -1,6 +1,6 @@
 package es.narutocraft.authcore.listeners;
 
-import es.narutocraft.authcore.AuthPlugin;
+import es.narutocraft.authcore.AuthCore;
 import es.narutocraft.authcore.utils.CenteredMessage;
 import es.narutocraft.authcore.utils.LocationUtil;
 import es.narutocraft.authcore.utils.MessageUtil;
@@ -40,13 +40,13 @@ import java.lang.reflect.Field;
 
 public class PlayerListener implements Listener {
 
-    private final AuthPlugin plugin;
+    private final AuthCore plugin;
 
-    public PlayerListener(AuthPlugin instance) {
+    public PlayerListener(AuthCore instance) {
         plugin = instance;
     }
 
-    FileConfiguration config = AuthPlugin.getInstance().getConfig();
+    FileConfiguration config = AuthCore.getInstance().getConfig();
 
     @EventHandler
     public void onLogin(PlayerLoginEvent event) {
@@ -216,7 +216,7 @@ public class PlayerListener implements Listener {
     @EventHandler
     public void onPluginLoad(PluginEnableEvent event) {
 
-        if (LocationUtil.parseToLocation(config.getString("LOCATION.SPAWN")) == null || config.getString("LOCATION.SPAWN") == null) {
+        if (config.getString("LOCATION.SPAWN") == null) {
             return;
         }
 
@@ -242,7 +242,7 @@ public class PlayerListener implements Listener {
 
     private void sendTab(Player player) {
 
-        MessageHandler message = AuthPlugin.getInstance().getMessageHandler();
+        MessageHandler message = AuthCore.getInstance().getMessageHandler();
 
         String bungee_total = "%bungee_total%";
         bungee_total = PlaceholderAPI.setPlaceholders(player.getPlayer(), bungee_total);
