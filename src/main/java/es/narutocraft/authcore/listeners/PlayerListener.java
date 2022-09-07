@@ -104,10 +104,12 @@ public class PlayerListener implements Listener {
         Player player = event.getPlayer();
 
         if (!player.isOp()) {
-            if ((event.getFrom().getX() != event.getTo().getX() || event.getFrom().getZ() != event.getTo().getZ())) {
-                player.teleport(event.getFrom());
-            }
-            
+            if ((event.getFrom().getX() != event.getTo().getX()
+                    || event.getFrom().getZ() != event.getTo().getZ()
+                    || event.getFrom().getPitch() != event.getTo().getPitch()
+                    || event.getFrom().getYaw() != event.getTo().getYaw()
+            )) { player.teleport(event.getFrom()); }
+
             return;
         }
 
